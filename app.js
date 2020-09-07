@@ -29,10 +29,10 @@ $(function () {
         $('body,html').animate({scrollTop: top}, 1000);
     });
     
-    // $('.count').counterUp({
-    //     delay: 10,
-    //     time: 1000
-    // });
+    $('.count').counterUp({
+        delay: 10,
+        time: 1000
+    });
 
     console.log($(window).width())
 });
